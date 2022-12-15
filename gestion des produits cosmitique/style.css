@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+    background-image: url('https://images.unsplash.com/photo-1579546928686-286c9fbde1ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1878&q=80');
+    height: 209%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* text-transform: capitalize; */
+}
+.inputs {
+    position: relative;
+    width: 40%;
+    background-color: #f2f2f28c;
+    border-radius: 5px;
+    padding: 2% 2%;
+    margin: 49px auto;
+    box-shadow: 0 0 3em #262829;}
+.value{
+    padding: 3px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#charge{
+    width: 100%;
+    background-color: #60bfc1;
+    color: white;
+    padding: 14px 20px;
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 3px 5px 14px grey;
+}
+
+table {
+    border-collapse: collapse;
+    width: 74%;
+    position: relative;
+    margin: 15px auto;
+}
+p {
+    color: red;
+    font-size: 11px;
+    margin-bottom: 7px;
+}
+  
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+ul {
+    list-style-type: none;
+}
+.btnsupp{
+	
+	width: 20%;
+	background-color: #f1e89d;
+	border: 2px solid #f1e89d;
+	border-radius: 4px;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 5px;
+	
+	margin-left: 20%;
+	
+}
+.btnsupp:hover{
+    background-color: #9bd0ca;
+	border: 2px solid #9bd0ca;
+}
+
+
+.form {
+	padding: 30px 40px;	
+}
+
+#labelpromotion{
+    padding-top: 10px;
+	padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+   
+   
+}
+option{
+    width: 100px;
+  
+}
+#type{
+    display: flex;
+}
+select{
+    margin-left: 30px;
+	width: 100%;
+}
+
+
+#msgnom,#msgprenom,#msgemail,#msgtele,#msgenre,#msggroupe{
+	width: 100%;
+}
+
+
+
+
+.btn-warning {
+    background-color: orange;
+    width: 61px;
+    height: 35px;
+    padding: 10px;
+    font-size: 14px;
+    margin: 2px 3px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 3px 5px 14px grey;
+    border: none;
+    color: white;
+}
+.btn-danger {
+    background-color: red;
+    width: 61px;
+    height: 35px;
+    padding: 10px;
+    font-size: 14px;
+    margin: 2px 3px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 3px 5px 14px grey;
+    border: none;
+    color: white;
+}
+
+

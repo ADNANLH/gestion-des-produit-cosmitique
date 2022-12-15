@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body"> 
+    
+    <div class="container">
+         
+       
+        
+        <form id="form" class="form" onsubmit="return false">
+          <div class="inputs">
+            <div class="value">
+                <label for="Nom">Nom :</label>
+                <input type="text" placeholder="Nom" id="nom" />
+                <p  class="msg" id="msgnom"></p>
+                
+            </div>
+            
+            <div class="value">
+                <label for="marque">Marque :</label>
+                <input type="text" placeholder="marque" id="marque" />
+                <p class="msg" id="msgmarque"></p>
+              
+            </div>
+            <div class="value">
+                <label for="prix">Prix :</label>
+                <input type="text" placeholder="prix" id="prix" />
+                <p class="msg" id="msgprix"></p>
+              
+            </div>
+            <div class="value"> 
+                <label for="date">Date :</label>
+                <input type="date" placeholder="date" id="date" />
+                <p class="msg" id="msgdate"></p>
+              
+            </div>
+              <div class="value">
+                    <div id="type">
+                     <label for="type">Type:</label>
+                      <select   id="typeselect"  name="typeselect"  >
+                        <option value="--Veuillez choisir Votre type de produit--" selected>--Veuillez choisir Votre type de produit--</option>
+                        <option value="hygiene et toilette">hygiène et toilette</option>
+                        <option value="soins esthetiques">soins esthétiques</option>
+                        <option value=" produits solaires"> produits solaires</option>
+                        <option value="beauté des mains et des pieds">beauté des mains et des pieds</option>
+                        <option value=" produits de maquillage"> produits de maquillage</option>
+                        <option value="entretien capillaires">entretien capillaires</option>
+                        <option value="parfums">parfums</option>
+                   </select>
+                </div>
+               
+              </div> <p class="msg" id="msgtype"></p>
+              <div id="promotion">
+                <label for="promotion">Promotion :</label><br>
+                <div id="labelpromotion">
+                  
+                  <span >
+                    <label for="Féminin">oui</label><input type="radio"  id="oui" value="oui" name="promotion"/></span> 
+                    
+                    <span > 
+                        <label for="non" >non</label> <input type="radio"  id="non" value="non" name="promotion"/></span>
+                    
+               </div>
+                     <p class="msg" id="msgpromotion"></p>
+            </div>
+                   
+              
+            <input type="button"  value="Ajouter"  onclick="charger()"  id="charge" >
+          </div>
+          </form>
+          
+          
+        
+      </div>
+      <div>
+        
+        <table id="table">
+          <tr>
+            <th>Nom</th>
+            <th>Marque </th>
+            <th>Prix </th>
+            <th>Date </th>
+                <th>Type</th>
+                <th>Promotion </th>
+                <th>Modifier</th>
+                <th>Supprimer</th>
+            </tr>
+            <tr> 
+               <tbody id="tbody">
+    
+                </tbody>
+            </tr>
+          </table>
+        </div>
+        <script src="index.js"></script>      
+          
+    
+        
+      
+      </body>
+      </html>
